@@ -1,0 +1,15 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+recursive-include order_tray_app *.css
+recursive-include order_tray_app *.csv
+recursive-include order_tray_app *.html
+recursive-include order_tray_app *.ico
+recursive-include order_tray_app *.js
+recursive-include order_tray_app *.json
+recursive-include order_tray_app *.md
+recursive-include order_tray_app *.png
+recursive-include order_tray_app *.py
+recursive-include order_tray_app *.svg
+recursive-include order_tray_app *.txt
+recursive-exclude order_tray_app *.pyc
